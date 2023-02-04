@@ -7,3 +7,4 @@ async function fetchData() {
     document.getElementById("deathNew").innerHTML=record.data[0].deathNew;
 }
 fetchData();
+// https://www.freecodecamp.org/news/building-chrome-extension/
