@@ -12,14 +12,14 @@ let b = [];
 
 let c = b;
 
-console.log(a == b);
-console.log(a === b);
-console.log(b == c);
-console.log(b === c);
+console.log(a == b); // false
+console.log(a === b); // false
+console.log(b == c); // true
+console.log(b === c); // true
 // investigate
-console.log(typeof a);
-console.log(typeof b);
-console.log(typeof c);
+console.log(typeof a); // object
+console.log(typeof b); // object
+console.log(typeof c); // object
 
 console.log(null == undefined); // true
 console.log(null === undefined); // false
