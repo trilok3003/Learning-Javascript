@@ -12,10 +12,7 @@ array1 = [];
  * How to Copy an Array in JavaScript
  */
 const users = ['ramesh', 'tony', 'stark', 'vijay', 'prabhas'];
-
 const users1 = users.slice() // creates the copy using slice()
-
-
 const users2 = [...users] // creates the copy using spread operator
 
 console.log(users1);
@@ -75,8 +72,8 @@ if (typeof user.firstName === 'undefined') {
  */
 let count = Object.keys(user).length;
      /**
- * Remove Object from an Array of Objects in JavaScript
- */
+* Remove Object from an Array of Objects in JavaScript
+*/
      // get index of object with id:37
 // var removeIndex = users.map(function(item) { return item.id; }).indexOf(37);
 
