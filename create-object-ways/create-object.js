@@ -1,5 +1,6 @@
 // using object literal
-// program to create JavaScript object using object literal
+// program to create JavaScript object using 
+// 1. object literal
 const person = { 
     name: 'John',
     age: 20,
@@ -20,8 +21,7 @@ console.log(person.name);
 console.log(person.hobbies[0]);
 person.greet();
 console.log(person.score.maths);
-// program to create JavaScript object using instance of an object
-// program to create JavaScript object using instance of an object
+// 2. program to create JavaScript object using instance of an object
 const person1 = new Object ( { 
     name: 'John',
     age: 20,
@@ -68,3 +68,9 @@ console.log(person.name);
 console.log(person.hobbies[0]);
 person.greet();
 console.log(person.score.maths);
+
+// 1. function constructor
+// 2. object literals:
+// 3.  Object.create() 
+// 4. Es6 Classs
+// 5. Object Constructor

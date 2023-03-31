@@ -1,3 +1,8 @@
+console.log(+"42");
+console.log(parseInt("42"))
+console.log(parseFloat("42"))
+console.log(Number("42"))
+
 // Number()
 // parseInt()
 // parseFloat()
@@ -10,3 +15,5 @@ console.log(+true); // 1
 console.log(+false); // 0
 console.log(+'John Doe'); // NaN
 console.log(+'0.0314E+2'); // 3.14
+
+
